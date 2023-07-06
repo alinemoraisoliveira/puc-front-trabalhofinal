@@ -1,10 +1,12 @@
 import styles from '../styles/Occupations.module.css';
+import Header from '../components/Header';
 
 export default function Occupations() {
   return (
-    <div className={styles.container}>
-      <main>
-        
+    <div className={styles.container}>      
+      <Header />
+
+      <main>  
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2> 2020 a atual </h2>

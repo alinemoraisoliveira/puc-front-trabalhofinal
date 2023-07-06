@@ -1,19 +1,17 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
 import styles from '../styles/Home.module.css';
+import Header from '../components/Header';
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
       <Header />
-      
+
       <main>
         <h1 className="title"> Aline Morais de Oliveira </h1>
         <p className={styles.description}> Analista e Desenvolvedor de Sistemas </p>
 
         <div className={styles.grid}>
-          <div className={styles.cardAbout}>
+          <div className={styles.card}>
             <h3>Sobre</h3>
             <p>Atuante no mercado de T.I., com mais de 9 anos de experiência em desenvolvimento de software. 
                 Me esforço para aprender continuamente e experimentar novas linguagens e estruturas. Eu tive 
@@ -31,8 +29,6 @@ export default function Home() {
         </div>
       </main>
       
-      <Footer />
-
       <style jsx>{`
         main {
           padding: 5rem 0;
@@ -66,5 +62,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }

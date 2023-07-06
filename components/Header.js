@@ -1,14 +1,14 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   return (
     <header>
       <nav>
         <ul>        
-          <li><a href="/about">Sobre</a></li>
-          <li><a href="/occupations">Ocupações anteriores</a></li>
+          <li><Link href="/">Sobre</Link></li>
+          <li><Link href="/occupations">Ocupações anteriores</Link></li>
           <li><a href="https://github.com/alinemoraisoliveira">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/alinemoraisoliveira/">Linkedin</a></li>
         </ul>
       </nav>
     </header>
